@@ -94,7 +94,7 @@
             document.getElementById('codeText').innerHTML = `ТВОЙ СЕКРЕТНЫЙ КОД:<br><b style="color:#ffff00; font-size:2rem;">${code}</b>`;
             
             // ССЫЛКА НА БОТА — ЗАМЕНИ НА СВОЙ ЮЗЕРНЕЙМ!!!
-            const botUsername = 'твой_бот'; // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+            const botUsername = 'Psyho12345Bot'; // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
             const link = `https://t.me/${botUsername}?start=${code}`;
             document.getElementById('botLink').href = link;
         }
